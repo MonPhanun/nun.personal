@@ -1,0 +1,134 @@
+.body{
+    width: 100%;
+    height: 200vh;
+   // background-color: rgb(177, 252, 227);
+}
+
+.back-blur{
+    width: 100%;
+    height: 100vh;
+    background: rgb(217,85,238);
+background: radial-gradient(circle, rgba(217,85,238,0.8547794117647058) 0%, rgba(238,93,189,0.43461134453781514) 23%, rgba(217,217,217,0.03125) 50%);
+}
+
+.top-home{
+    width: 100% !important;
+
+    .card-col{
+        
+        height: 90vh;
+
+
+        .card{
+            overflow: hidden;
+            width: 300px;
+            top: 20%;
+            right: 15%;
+            border-radius: 25px;
+            box-shadow: rgba(185, 185, 185, 0.2) 0px 7px 29px 0px;
+        }
+    }
+
+    .text-top{
+        top: 23%;
+        color: rgba(255, 255, 255, 0.808);
+        text-shadow: 3px 3px 4px rgba(171, 171, 171, 1);
+    }
+   
+}
+
+
+.card-team{
+    
+    width: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(139, 83, 123, 0.637) 0px 7px 29px 0px;
+
+}
+
+.text-team{
+    h1{
+        text-transform: uppercase;
+        font-weight: 800;
+        color: rgb(56, 41, 49);
+
+        font-size: 45px;
+    }
+
+    h3{
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.699);
+    }
+}
+
+.text-comitment{
+   
+    
+    text-align: end;
+    h1{
+        text-transform: uppercase;
+        font-weight: 800;
+        color: rgb(56, 41, 49);
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.699);
+    }
+}
+
+.box-hight{
+    height: 100px;
+}
+
+.card-self{
+    background-color: white;
+}
+
+.img-self{
+    
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(139, 83, 123, 0.637) 0px 7px 29px 0px;
+
+}
+
+.card-self{
+    background-color: white;
+    
+}
+
+@media screen and (max-width: 988px) {
+
+
+    .on-img{
+
+        justify-content: center !important;
+
+        .img-self{
+        
+            width: 400px;
+            overflow: hidden;
+            border-radius: 20px;
+            box-shadow: rgba(139, 83, 123, 0.637) 0px 7px 29px 0px;
+    
+        }
+    }
+
+    .text-team{
+        text-align: center;
+
+        h1{
+            font-size: 30px;
+        }
+
+        h3{
+            padding: 3rem;
+            font-size: 18px;
+        }
+    }
+
+}

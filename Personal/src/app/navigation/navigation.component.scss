@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul {
+    box-sizing: border-box;
+    background-color: #afafaf34 !important;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+ul li {
+    list-style: no;
+
+    a{
+       
+        font-size: 19px;
+    }
+}
+
+.nav-bar{
+    padding-top: 30px;
+}
